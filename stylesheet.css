@@ -1,0 +1,302 @@
+html {
+	
+}
+
+body {
+	font-family: 'Life Savers', cursive;
+	
+}
+
+div {
+	display: block;
+}
+
+.navbar {
+	background-color: white;
+}
+
+
+.navbar-brand {
+	
+	font-size: 2em;
+}
+
+
+.nav-link {
+	color: #5bc0de;
+}
+
+
+.dog-walking {
+	background-image: url("img/dog1test.jpeg");
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 900px;
+	text-align: center;
+	border-radius: .3em;
+	
+
+}
+
+
+.dog-walking h4 {
+	
+	font-weight: bold;
+}
+
+.dog-walking span {
+	color: #ffffff;
+	background-color: #292b2c;
+}
+
+#cat-section {
+	height: 3em;
+	
+}
+
+
+.cat-sitting {
+	background-image: url("img/cat2test.jpeg");
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 1000px;
+	text-align: center;
+	border-radius: .3em;
+	min-height: 100%;
+	margin-top: 1em;
+
+	
+
+}
+
+
+.cat-sitting h4 {
+	color: white;
+	font-weight: bold;
+}
+
+.cat-sitting span {
+	color: #5bc0de;
+	background-color: #ffffff;
+}
+#about-section {
+	height:	3em;
+}
+
+.about {
+	/*
+	background-image: url("images/cat3.jpeg");
+	*/
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 550px;
+	text-align: center;
+	border-radius: .3em;
+	min-height: 100%;
+	margin-top: 1em;
+	margin-bottom: 0;
+
+
+}
+
+
+
+
+
+.jumbotron h1 {
+	font-size: 2rem;
+
+
+}
+
+.about h1 {
+	
+}
+
+.jumbotron p {
+	font-size: 1rem;
+	font-family: "Open Sans", sans-serif
+}
+
+
+
+.btn {
+	font-family: 'Life Savers', cursive;
+	font-weight: bold;
+}
+
+#dog-price-button {
+	margin-top: .5em;
+}
+
+
+#avatar {
+	border-radius: 50%;
+	height: 10em;
+	width: 10em;
+	background-size: cover;
+	background-image: url("img/me.jpg");
+	margin: auto;
+	margin-top: 2em;
+}
+
+.bio p{
+	height: 3em;
+	margin-bottom: 9.5em;
+	margin-top: 25px;
+}
+
+.footer {
+	height: 10.5em;
+	background-color: #4B515D;
+	border-radius: .3em;
+	border: 1px solid black;
+
+}
+#icons{
+	text-align: center;
+}
+#contact{
+	padding-top: .4em;
+	padding: auto;
+	color: #ffffff;
+	font-style: bold;
+	text-align: center;
+
+}
+
+.footer-copyright {
+	
+	margin-top: .5em;
+	color: #ffffff;
+	background-color: #3E4551;
+	border-radius: .3em;
+	height: 2em;
+}
+
+.footer-copyright p {
+	padding-top: 4px;
+	text-align: center;
+}
+
+
+.icon {
+	padding: 10px;
+	margin-top: 2px;
+	font-size: 36px;
+}
+
+.fa {
+	color: #E6E6E6;
+
+}
+
+nav form p {
+	color: #5bc0de;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+
+/*
+Responsive
+*/
+@media (min-width: 576px) {
+	.dog-walking {
+		height: 960px;
+	}
+
+	.dog-walking h1 {
+		font-size: 42px;
+		
+	}
+
+	#dog-price-button {
+
+	}
+	.dog-walking h4 {
+		margin-top: 9.3em;
+		font-size: 48px;
+
+	}
+
+	.cat-sitting p {
+
+	}
+
+	.cat-sitting h4 {
+		margin-top: 9.3em;
+		font-size: 48px;
+	}
+
+	.cat-sitting h1 {
+		font-size: 42px;
+		
+	}
+
+	.about h1 {
+		font-size: 42px;
+		
+	}
+	.about {
+		height: 750px;
+	}
+	
+	.jumbotron p {
+		font-size: 1.5em;
+	}
+	
+}
+
+
+@media (min-width: 992px) {
+	
+	.dog-walking {
+		height: 1100px;
+	}
+
+	.dog-walking h4 {
+		margin-top: 10em;
+	}
+	.cat-sitting {
+		height: 1100px;
+}
+	.cat-sitting h4 {
+		margin-top: 10em;
+		font-size: 51px;
+	}
+
+	.about {
+		height: 930px;
+	}
+	
+
+}
+
+@media (min-width: 1650px) {
+	.dog-walking h1 {
+		margin-left: 100px;
+	}
+	.cat-sitting h1 {
+		margin-left: 100px;
+	}
+	.cat-sitting h4 {
+		font-size: 52px;
+		
+	}
+}
+
+
+@media (min-width: 2200px){
+	.dog-walking h1 {
+		margin-left: 200px;
+	}
+	.cat-sitting h1 {
+		margin-left: 200px;
+}
