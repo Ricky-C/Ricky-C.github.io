@@ -50,6 +50,15 @@ div {
 	color: #ffffff;
 	background-color: #292b2c;
 }
+#dog-modal ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#dog-modal ul li {
+	margin-left: 0px;
+}
+
 
 #cat-section {
 	height: 3em;
@@ -83,6 +92,17 @@ div {
 	color: #5bc0de;
 	background-color: #ffffff;
 }
+
+#cat-modal ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#cat-modal ul li {
+	margin-left: 0px;
+}
+
+
 #about-section {
 	height:	3em;
 }
