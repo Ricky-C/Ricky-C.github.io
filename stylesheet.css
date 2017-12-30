@@ -212,6 +212,8 @@ div {
 	font-size: 36px;
 }
 
+
+
 .fa {
 	color: #E6E6E6;
 
@@ -296,6 +298,9 @@ Responsive
 		height: 930px;
 	}
 	
+	.bio p {
+		margin-top: 85px; 
+	}
 
 }
 
