@@ -26,6 +26,12 @@ div {
 	color: #5bc0de;
 }
 
+nav form p {
+	color: #5bc0de;
+	margin-bottom: 0;
+	font-weight: bold;
+	padding-right: 10px;
+}
 
 .dog-walking {
 	background-image: url("img/dog1test.jpeg");
@@ -219,13 +225,24 @@ div {
 
 }
 
-nav form p {
-	color: #5bc0de;
-	margin-bottom: 0;
-	font-weight: bold;
+.fa-facebook:hover {
+	color: #3b5998;
 }
 
+.fa-twitter:hover {
+	color: #1da1f2;
+}
 
+.fa-instagram:hover {
+	color: #bf4469;
+}
+
+.fa-yelp:hover {
+	color: #af0606;
+}
+.fa-linkedin:hover {
+	color: #0077b5;
+}
 /*
 Responsive
 */
